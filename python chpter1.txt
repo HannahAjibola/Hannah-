@@ -1,0 +1,115 @@
+1.1
+a) 10 / 3 - This expression is valid and will result in a floating-point division. It will not produce a runtime error.
+
+b) 10 // 3 - This expression is valid and will result in integer division. It will not produce a runtime error.
+
+c) 10 / 0 - This expression attempts to divide by zero, which is undefined in mathematics. It will produce a runtime error (ZeroDivisionError in Python).
+
+d) 10 // 0 - Similar to (c), this expression attempts integer division by zero, which is also undefined. It will produce a runtime error (ZeroDivisionError in Python).
+
+e) 0 / 10 - This expression is valid and will result in a floating-point division. It will not produce a runtime error.
+
+f) 0 // 10 - This expression is valid and will result in integer division. It will not produce a runtime error.
+
+1.2
+a) 10 / 3 + 7 - This expression is valid and will result in a floating-point division followed by addition. It will not produce a runtime error.
+
+b) 10 // 3 + 7 - This expression is valid and will result in integer division followed by addition. It will not produce a runtime error.
+
+c) 10 / (3 + 7) - This expression is valid and will result in a floating-point division with the result of the addition inside the parentheses. It will not produce a runtime error.
+
+d) 10 / 3 - 3 - This expression is valid and will result in a floating-point division followed by subtraction. It will not produce a runtime error.
+
+e) 10 / (3 - 3) - This expression attempts to divide by zero inside the parentheses, which is undefined. It will produce a runtime error (ZeroDivisionError in Python).
+
+f) 10 // (3 - 3) - Similar to (e), this expression attempts integer division by zero, which is also undefined. It will produce a runtime error (ZeroDivisionError in Python).
+
+1.4
+a)Input Unit.
+
+b) Output Unit
+
+c) Memory and Storage Devices 
+
+d) Arithmetic and Logic Unit (ALU) 
+
+e) Control Unit 
+
+f) Central Processing Unit (CPU)
+
+
+CHAPTER TWO PARTS
+2.1
+a), it prints the value of variable x.
+(b), it prints the value of x added to itself and constructs a message with the result.
+(c), it prints a message "x =" without specifying the value, so it will print "x =" followed by a new line.
+(d), it prints the sum of x and y on both sides of the equals sign, resulting in "5 = 5" when x = 2 and y = 3.
+
+2.3
+if grade >= 90:
+    print('Congratulations! Your grade of', grade, 'earns you an A in this course')
+
+2.4
+result_addition = 27.5 + 2
+print("Addition result:", result_addition)
+
+result_subtraction = 27.5 - 2
+print("Subtraction result:", result_subtraction)
+
+result_multiplication = 27.5 * 2
+print("Multiplication result:", result_multiplication)
+
+result_division = 27.5 / 2
+print("Division result:", result_division)
+
+result_integer_division = 27.5 // 2
+print("Integer Division result:", result_integer_division)
+
+result_exponentiation = 27.5 ** 2
+print("Exponentiation result:", result_exponentiation)
+
+2.6
+number = int(input("Enter an integer: "))
+
+if number % 2 == 0:
+    print(f"{number} is an even number.")
+else:
+    print(f"{number} is an odd number.")
+
+2.7
+
+if 1024 % 4 == 0:
+    print("1024 is a multiple of 4.")
+else:
+    print("1024 is not a multiple of 4.")
+if 2 % 10 == 0:
+    print("2 is a multiple of 10.")
+else:
+    print("2 is not a multiple of 10.")
+
+2.8
+num1 = int(input("Enter the first integer: "))
+num2 = int(input("Enter the second integer: "))
+num3 = int(input("Enter the third integer: "))
+
+total = num1 + num2 + num3
+average = total / 3
+product = num1 * num2 * num3
+smallest = min(num1, num2, num3)
+largest = max(num1, num2, num3)
+
+print(f"Sum: {total}")
+print(f"Average: {average:.2f}")
+print(f"Product: {product}")
+print(f"Smallest: {smallest}")
+print(f"Largest: {largest}")
+
+
+
+
+
+
+
+
+
+
